@@ -1,6 +1,7 @@
 package com.ali.newsapp
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -28,6 +29,11 @@ class NewsAdapter(val context: Context, val articles: List<Article>) :
         holder.newTitle.text = article.title
         holder.newsDescription.text = article.description
         Glide.with(context).load(article.urlToImage).into(holder.newsImage)
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, WebViewActivity::class.java)
+            intent.putExtra("URL", article.url)
+            context.startActivity(intent)
+        }
     }
 
     class ArticleViewHolder(itemView: View) : ViewHolder(itemView) {
