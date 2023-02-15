@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61947971305",
+    "project_id": "news-app-489a8",
+    "storage_bucket": "news-app-489a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61947971305:android:d45450a11525165b531278",
+        "android_client_info": {
+          "package_name": "com.ali.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61947971305-df7h937leevmi6r00fbnno4h8ev6tlfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQyJx-nrET_hGEMyH9ZGTofeoeqi0mknw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61947971305-df7h937leevmi6r00fbnno4h8ev6tlfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
